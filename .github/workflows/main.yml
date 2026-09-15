@@ -23,5 +23,5 @@ jobs:
  
       - name: Deploy website to S3
         run: |
-          aws s3 sync . s3://${{ secrets.s3-sync-github-task6
+          aws s3 sync . s3://${{ secrets.s3_sync_github_task6
  }} --delete
